@@ -1650,7 +1650,7 @@ direccion = 0
 forever(function () {
     music.playMelody("E G F B G B F G ", 185)
     music.playMelody("E G A G E D G E ", 185)
-    music.playMelody("E G D A E D G A ", 185)
+    music.playMelody("E G D A E D G A ", 184)
 })
 forever(function () {
     if (info.score() == 5 && bueno.overlapsWith(nivel1)) {
